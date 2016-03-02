@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms | Forms</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/favicon-114x114.png">
+    <!--Loading bootstrap css-->
+    <!--    Fonts -->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700,300">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!--    Styles-->
+    <link type="text/css" rel="stylesheet" href="css/logIn/jquery-ui-1.10.4.custom.min.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/animate.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/all.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/main.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/style-responsive.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/zabuto_calendar.min.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/pace.css">
+    <link type="text/css" rel="stylesheet" href="css/logIn/jquery.news-ticker.css">
+    <link type="text/css" rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <!--
+    <div class="row logIn-frame">
+    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                Login</div>
+            <div class="panel-body pan">
+                <form action="#" class="form-horizontal">
+                    <div class="form-body pal">
+                        <div class="form-group">
+
+                            <div class="col-md-12">
+                                <div class="input-icon right">
+
+                                    <input id="inputName" type="text" placeholder="Name" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="col-md-12">
+                                <div class="input-icon right">
+
+                                    <input id="inputPassword" type="text" placeholder="Password" class="form-control" />
+                                </div>
+                                <span class="help-block mbn"><a href="#"><small>Forgot password?</small> </a></span>
+                            </div>
+                        </div>
+                        <div class="form-group mbn col-lg-8 col-md-6 col-sm-6 col-xs-6">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input tabindex="5" type="checkbox" />&nbsp; Keep me logged in</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-actions pal btn-logIn-frame">
+                        <div class="form-group mbn">
+                            <div class="col-lg-3 col-lg-offset-9  col-md-4 col-md-offset-8">
+                                <a href="#" class="">
+                                    <button type="submit" class="btn btn-primary btn-logIn">
+                                        Login</button>
+                                </a>&nbsp;&nbsp;
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+-->
+
+    <div class="row logIn-frame">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+            <div class="panel panel-orange">
+                <div class="panel-heading">
+                    Registration</div>
+                <div class="panel-body pan">
+                    <form action="#">
+                        <div class="form-body pal">
+                            <div class="form-group">
+                                <div class="input-icon right">
+                                    <!--                                    <i class="fa fa-user"></i>-->
+                                    <input id="inputName" type="text" placeholder="Username" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-icon right">
+                                    <!--                                    <i class="fa fa-envelope"></i>-->
+                                    <input id="inputEmail" type="text" placeholder="Email address" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-icon right">
+                                    <!--                                    <i class="fa fa-lock"></i>-->
+                                    <input id="inputPassword" type="password" placeholder="Password" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-icon right">
+                                    <!--                                   <i class="fa fa-lock"></i>-->
+                                    <input id="inputConfirmPassword" type="password" placeholder="Confirm Password" class="form-control" />
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="inputFirstName" type="text" placeholder="First Name" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="inputLastName" type="text" placeholder="Last Name" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>Gender</option>
+                                    <option value="0">Male</option>
+                                    <option value="1">Female</option>
+                                    <option value="2">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group checkbox-form">
+                                <label class="first-label"> Select sensors: </label>
+                                <div class="checkbox">
+                                    <label>
+                                        <input tabindex="5" type="checkbox" />&nbsp; Health care
+                                    </label>
+                                </div>
+                               <div class="checkbox">
+    <label>
+        <input tabindex="5" type="checkbox" />&nbsp; Enviromental
+    </label>
+</div>
+                            </div>
+                            <div class="form-group mbn checkbox-form">
+                                <div class="checkbox checkbox-terms-conditions">
+                                    <label>
+                                        <input tabindex="5" type="checkbox" />&nbsp; I agree with the Terms and Conditions</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-actions text-right pal">
+                            <a href="sensorSelect.html">
+                                <button type="button" class="btn btn-primary btn-form-submit">
+                                    Submit</button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--END CONTENT-->
+    <!--BEGIN FOOTER-->
+
+    <!--END FOOTER-->
+    </div>
+    <!--END PAGE WRAPPER-->
+    </div>
+    </div>
+    <script src="script/logIn/jquery-1.10.2.min.js"></script>
+    <script src="script/logIn/jquery-migrate-1.2.1.min.js"></script>
+    <script src="script/logIn/jquery-ui.js"></script>
+    <script src="script/logIn/bootstrap.min.js"></script>
+    <script src="script/logIn/bootstrap-hover-dropdown.js"></script>
+    <script src="script/logIn/html5shiv.js"></script>
+    <script src="script/logIn/respond.min.js"></script>
+    <script src="script/logIn/jquery.metisMenu.js"></script>
+    <script src="script/logIn/jquery.slimscroll.js"></script>
+    <script src="script/logIn/jquery.cookie.js"></script>
+    <script src="script/logIn/icheck.min.js"></script>
+    <script src="script/logIn/custom.min.js"></script>
+    <script src="script/logIn/jquery.news-ticker.js"></script>
+    <script src="script/logIn/jquery.menu.js"></script>
+    <script src="script/logIn/pace.min.js"></script>
+    <script src="script/logIn/holder.js"></script>
+    <script src="script/logIn/responsive-tabs.js"></script>
+    <script src="script/logIn/jquery.flot.js"></script>
+    <script src="script/logIn/jquery.flot.categories.js"></script>
+    <script src="script/logIn/jquery.flot.pie.js"></script>
+    <script src="script/logIn/jquery.flot.tooltip.js"></script>
+    <script src="script/logIn/jquery.flot.resize.js"></script>
+    <script src="script/logIn/jquery.flot.fillbetween.js"></script>
+    <script src="script/logIn/jquery.flot.stack.js"></script>
+    <script src="script/logIn/jquery.flot.spline.js"></script>
+    <script src="script/logIn/zabuto_calendar.min.js"></script>
+    <script src="script/logIn/index.js"></script>
+    <!--LOADING SCRIPTS FOR CHARTS-->
+    <script src="script/logIn/highcharts.js"></script>
+    <script src="script/logIn/data.js"></script>
+    <script src="script/logIn/drilldown.js"></script>
+    <script src="script/logIn/exporting.js"></script>
+    <script src="script/logIn/highcharts-more.js"></script>
+    <script src="script/logIn/charts-highchart-pie.js"></script>
+    <script src="script/logIn/charts-highchart-more.js"></script>
+    <!--CORE JAVASCRIPT-->
+    <script src="script/logIn/main.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-145464-12', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
