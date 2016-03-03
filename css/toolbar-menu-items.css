@@ -44,16 +44,16 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 }
 
 .nav-list {
-    border-bottom: 1px solid #eee;
+    /*    border-bottom: 1px solid #eee;*/
 }
 
 .nav-list > li {
     padding: 20px 15px 15px;
-    border-left: 1px solid #eee;
+    /*    border-left: 1px solid #eee;*/
 }
 
 .nav-list > li:last-child {
-    border-right: 1px solid #eee;
+    /*    border-right: 1px solid #eee;*/
 }
 
 .nav-list > li > a:hover {
@@ -79,4 +79,26 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 .dropdown-toggle {
     color: #D11250 !important;
     font-weight: 600 !important;
+}
+
+.toolbar-item {
+    /*    border: none !important;*/
+    border-radius: 15px;
+}
+
+.toolbar-tab-content {
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.active-toolbar-item {
+    background-color: #006899 !important;
+}
+
+.active-toolbar-item > a {
+    color: white !important;
+}
+
+.mega-dropdown-menu {
+    background: rgba(255, 255, 255, 0.7);
 }
