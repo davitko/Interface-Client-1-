@@ -2575,7 +2575,9 @@ ul.nav.nav-tabs li a {
 }
 
 ul.nav.nav-tabs li.active a {
-    background: #dc6767;
+    /*    background: #dc6767;*/
+    /*    background: #d11250;*/
+    background: #006899;
     color: #fff;
     border: 0px;
 }
