@@ -121,23 +121,48 @@
                                 <!-- Tab panes -->
                                 <div class="tab-content toolbar-tab-content">
                                     <div class="tab-pane active" id="men">
-                                        <h2>You must select one configuration:</h2>
                                         <!--                                        <div class="container">-->
-                                        <!-- All sizes -->
-                                        <div class="container">
-                                            <div class="form-group">
-                                                <div class="col-sm-7 col-md-7">
-                                                    <div class="input-group">
-                                                        <div id="radioBtn" class="btn-group">
-                                                            <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-lg active" data-toggle="happy" data-title="Y"><span><i class="fa fa fa-cog"></i> Config 1</span></a></div>
-                                                            <div class="toolbar-radioButton"><a class="btn btn-primary btn-lg notActive" data-toggle="happy" data-title="N"><span><i class="fa fa fa-cog"></i> Config 2</span></a></div>
-                                                            <div class="toolbar-radioButton"><a class="btn btn-primary btn-lg notActive" data-toggle="happy" data-title="Config3"><span><i class="fa fa fa-cog"></i> Config 3</span></a></div>
+                                        <div class="row">
+                                            <div class="col-lg-6 settings-col">
+                                                <h4>You must select one configuration:</h4>
+                                                <!--                                        <div class="container">-->
+                                                <!-- All sizes -->
+                                                <div class="form-group">
+                                                    <div class="col-sm-7 col-md-7">
+                                                        <div class="input-group">
+                                                            <div id="radioBtn" class="btn-group">
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md active" data-toggle="happy" data-title="Config1"><span><i class="fa fa fa-cog"></i> Config 1</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="happy" data-title="Config2"><span><i class="fa fa fa-cog"></i> Config 2</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="happy" data-title="Config3"><span><i class="fa fa fa-cog"></i> Config 3</span></a></div>
+                                                            </div>
+                                                            <input type="hidden" name="happy" id="happy">
                                                         </div>
-                                                        <input type="hidden" name="happy" id="happy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 settings-col">
+                                                <h4>Select one action:</h4>
+                                                <div class="form-group">
+                                                    <div class="col-sm-7 col-md-7">
+                                                        <div class="input-group">
+                                                            <div id="radioBtn" class="btn-group">
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md active" data-toggle="happy" data-title="GLM"><span><i class="fa fa-clock-o"></i> Get lastest measurements</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="happy" data-title="GHVM"><span><i class="fa fa-refresh"></i> Get historic validated measurements</span></a></div>
+                                                            </div>
+                                                            <input type="hidden" name="happy" id="happy">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <button type="button" class="btn btn-vd btn3d toolbar-done-btn"><span class=""></span>Done</button>
+                                            </div>
+                                        </div>
+
+
+                                        <!--                                        </div>-->
 
                                         <!--                                        </div>-->
 
@@ -282,18 +307,21 @@
     </ul>
 </div>
 -->
+
                                     </div>
                                 </div>
                             </div>
                             <!-- Nav tabs -->
+                            <!--
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="active"><a href="#men" role="tab" data-toggle="tab">Configurations</a></li>
-                                <!--                                <li><a href="#women" role="tab" data-toggle="tab">Women</a></li>-->
-                                <li><a href="#kids" role="tab" data-toggle="tab">Measurements</a></li>
-                                <!--                                <li><a href="#sports" role="tab" data-toggle="tab">Sports</a></li>-->
-                            </ul>
+-->
+                            <!--                                <li><a href="#women" role="tab" data-toggle="tab">Women</a></li>-->
+                            <!--                                <li><a href="#kids" role="tab" data-toggle="tab">Measurements</a></li>-->
+                            <!--                                <li><a href="#sports" role="tab" data-toggle="tab">Sports</a></li>-->
+                            <!--                            </ul>-->
                             <!--                            <button class="btn btn-primary btn-sm toolbar-done-btn ">Done</button>-->
-                            <button type="button" class="btn btn-vd btn3d toolbar-done-btn"><span class=""></span>Done</button>
+
                         </div>
                     </li>
                     <li>
@@ -347,16 +375,15 @@
 
     <!--  End Toolbar -->
     <div class="row">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-4 .col-md-9 .col-md-offset-3">
-                <div id="" class="update-nag config-info">
-                    <div class="update-split update-danger"><i class="glyphicon glyphicon-warning-sign"></i></div>
-                    <div class="update-text"> <strong>Warning</strong> Select Configuration in <span>Settings</span> menu
-                        <label id="3">X</label>
-                    </div>
+        <!--        <div class="container">-->
+        <div class="col-lg-8 col-lg-offset-2 .col-md-8 .col-md-offset-2 .col-sm-9 .col-sm-offset-1">
+            <div id="" class="update-nag config-info">
+                <div class="update-split update-danger"><i class="glyphicon glyphicon-warning-sign"></i></div>
+                <div class="update-text"> <strong>Warning</strong> Select Configuration in <span>Settings</span> menu
                 </div>
             </div>
         </div>
+        <!--        </div>-->
     </div>
 
     <div class="row table-display-frame">
@@ -506,10 +533,12 @@
     </div>
     <!--END CONTENT-->
     <!--BEGIN FOOTER-->
-    <div id="footer">
-        <div class="copyright">
-            <a href="http://themifycloud.com">2016 © LanceIct</a></div>
-    </div>
+    <!--
+  <div id="footer">
+    <div class="copyright">
+        <a href="http://themifycloud.com">2016 © LanceIct</a></div>
+</div>
+-->
     <!--END FOOTER-->
     </div>
     <!--END PAGE WRAPPER-->

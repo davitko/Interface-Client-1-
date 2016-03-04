@@ -18,7 +18,8 @@
     background: #337ab7;
     width: 33px;
     float: left;
-    color: #fff!important;
+    /*    color: #fff!important;*/
+    color: #D11250;
     height: 100%;
     text-align: center;
 }
@@ -34,7 +35,8 @@
 }
 
 .update-nag > .update-split.update-danger {
-    background: #d9534f!important;
+    /*    background: #d9534f!important;*/
+    background: transparent!important;
 }
 
 .update-nag > .update-split.update-info {
@@ -52,17 +54,20 @@
     float: right;
     margin-left: 20px;
     cursor: pointer;
-    color: #d9534f;
+    color: #D11250;
 }
 
 .update-nag > .update-text label:hover {
-    color: #ce3c39;
+    color: #D11250;
 }
 
 .config-info {
-    position: absolute;
-    left: 30%;
-    top: 100px;
+    position: relative;
+    /*    margin-left: 200px;*/
+    margin-top: 150px;
+    width: auto;
+    height: auto;
+    padding: 10px 0;
 }
 
 .update-text > span {

@@ -8,6 +8,10 @@
     font-weight: 700;
 }
 
+#radioBtn {
+    min-width: 285px;
+}
+
 
 /*
 .toolbar-radioButton-a {
@@ -19,4 +23,9 @@
     margin: 10px 0;
     float: left;
     clear: both;
+}
+
+.toolbar-radioButton-a {
+    min-width: 285px;
+    text-align: left;
 }

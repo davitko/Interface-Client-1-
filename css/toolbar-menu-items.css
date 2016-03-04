@@ -16,7 +16,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 }
 
 .navbar-nav>li {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .navbar-brand {
@@ -74,6 +74,8 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     padding: 20px 15px 15px;
     text-align: center;
     width: 100%;
+    border: none;
+    box-shadow: none;
 }
 
 .dropdown-toggle {
@@ -89,8 +91,9 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 
 .toolbar-tab-content {
     border: none;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     border-radius: 25px;
+    max-width: 785px;
 }
 
 .active-toolbar-item {
@@ -106,8 +109,13 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 }
 
 .mega-dropdown-menu {
-    background: rgba(255, 255, 255, 0.7);
+    /*    background: rgba(255, 255, 255, 0.7);*/
+    border: none;
     border-radius: 20px;
+    padding: 0;
+    background: transparent;
+    margin-left: 63px;
+    box-shadow: none !important;
 }
 
 .stretch {
@@ -131,7 +139,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     margin-right: 30px;
 }
 
-.tab-pane > h2 {
+.settings-col > h4 {
     color: #006899;
     font-weight: 600;
     margin: 5px 0 20px;
