@@ -1,0 +1,22 @@
+#radioBtn .notActive {
+    color: #3276b1;
+    background-color: #fff !important;
+    font-weight: 300;
+}
+
+#radioBtn .active {
+    font-weight: 700;
+}
+
+
+/*
+.toolbar-radioButton-a {
+    background-color: gray;
+}
+*/
+
+.toolbar-radioButton {
+    margin: 10px 0;
+    float: left;
+    clear: both;
+}

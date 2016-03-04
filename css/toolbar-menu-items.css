@@ -124,3 +124,15 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 .toolbar-item > a > span {
     margin-top: 20px;
 }
+
+.toolbar-done-btn {
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+
+.tab-pane > h2 {
+    color: #006899;
+    font-weight: 600;
+    margin: 5px 0 20px;
+}

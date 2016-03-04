@@ -37,6 +37,22 @@ $('.toolbar-menu-item-ico').click(function () {
     $(this).toggleClass('toolbar-menu-item-ico-activ');
 });
 
+$('.fancy-checkbox-primary-custom-icons').click(function () {
+    //    $(this).addClass("active-toolbar-item");
+    $(this).toggleClass('toolbar-menu-item-ico-activ');
+});
+
+$('.toolbar-checkbox').click(function () {
+    $('glyphicon-ok').toggleClass('toolbar-checkbox-activ');
+});
+
+
+
+
+$(".toolbar-done-btn").click(function () {
+    $(".toolbar-btn-GetM").removeClass('disabled');
+});
+
 $('.toolbar-btn-GetM').click(function () {
     $(".toolbar-btn-validateM").removeClass('disabled');
 });

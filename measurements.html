@@ -38,12 +38,15 @@
     <link type="text/css" rel="stylesheet" href="./css/sidebar-menu.css">
     <link type="text/css" rel="stylesheet" href="./css/bootstrap3Dbuttons.css">
     <link type="text/css" rel="stylesheet" href="./css/toolbar-menu-items.css">
+    <link type="text/css" rel="stylesheet" href="./css/checkboxes.css">
+    <link type="text/css" rel="stylesheet" href="./css/radioButtons.css">
+    <link type="text/css" rel="stylesheet" href="./css/statusBar.css">
 </head>
 
 <body>
     <!-- Navigation -->
     <div id="wrapper">
-        <div class="overlay"></div>
+        <div class=""></div>
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
@@ -112,50 +115,82 @@
 -->
 
                     <li class="dropdown mega-dropdown active">
-                        <a href="#" class="dropdown-toggle btn btn-vd btn3d" data-toggle="dropdown">Measurements <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle btn btn-vd btn3d" data-toggle="dropdown">Settings <span class="caret"></span></a>
                         <div class="dropdown-menu mega-dropdown-menu">
                             <div class="container-fluid">
                                 <!-- Tab panes -->
                                 <div class="tab-content toolbar-tab-content">
                                     <div class="tab-pane active" id="men">
-                                        <ul class="nav-list list-inline">
-                                            <li class="toolbar-item">
-                                                <!--                                                <a href="#"><img src="./img/toolbar/no-ico.png"><span>No Configuration</span></a> Please go to Register Screen-->
+                                        <h2>You must select one configuration:</h2>
+                                        <!--                                        <div class="container">-->
+                                        <!-- All sizes -->
+                                        <div class="container">
+                                            <div class="form-group">
+                                                <div class="col-sm-7 col-md-7">
+                                                    <div class="input-group">
+                                                        <div id="radioBtn" class="btn-group">
+                                                            <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-lg active" data-toggle="happy" data-title="Y"><span><i class="fa fa fa-cog"></i> Config 1</span></a></div>
+                                                            <div class="toolbar-radioButton"><a class="btn btn-primary btn-lg notActive" data-toggle="happy" data-title="N"><span><i class="fa fa fa-cog"></i> Config 2</span></a></div>
+                                                            <div class="toolbar-radioButton"><a class="btn btn-primary btn-lg notActive" data-toggle="happy" data-title="Config3"><span><i class="fa fa fa-cog"></i> Config 3</span></a></div>
+                                                        </div>
+                                                        <input type="hidden" name="happy" id="happy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--                                        </div>-->
+
+                                        <!--
+                                <ul class="nav-list list-inline">
+    <li class="toolbar-item">
+-->
+                                        <!--                                                <a href="#"><img src="./img/toolbar/no-ico.png"><span>No Configuration</span></a> Please go to Register Screen-->
+                                        <!--
                                                 <a href="#">
                                                     <div><i class="fa fa-black-tie toolbar-menu-item-ico"></i></div><span class="">No Configuration </span></a>
                                             </li>
                                             <li class="toolbar-item">
-                                                <!--                                                <a href="#"><img src="./img/toolbar/night-ico.png"><span>Night</span></a>-->
+-->
+                                        <!--                                                <a href="#"><img src="./img/toolbar/night-ico.png"><span>Night</span></a>-->
+                                        <!--
                                                 <a href="#">
                                                     <div><i class="fa fa-sun-o toolbar-menu-item-ico"></i></div><span>Day</span>
                                                 </a>
                                             </li>
                                             <li class="toolbar-item">
-                                                <!--                                                <a href="#"><img src="./img/toolbar/day-ico.png"><span>Day</span></a>-->
+-->
+                                        <!--                                                <a href="#"><img src="./img/toolbar/day-ico.png"><span>Day</span></a>-->
+                                        <!--
                                                 <a href="#">
                                                     <div><i class="fa fa-moon-o toolbar-menu-item-ico"></i></div><span>Night</span>
                                                 </a>
-                                                <!--                                                    <div><i class="fa fa-black-tie toolbar-menu-item-ico"></div><span>Day</span></a>-->
-                                                <!--                                                <a href="#"><i class="fa fa-sun-o stretch"></i><span>Day</span></a>-->
+-->
+                                        <!--                                                    <div><i class="fa fa-black-tie toolbar-menu-item-ico"></div><span>Day</span></a>-->
+                                        <!--                                                <a href="#"><i class="fa fa-sun-o stretch"></i><span>Day</span></a>-->
+                                        <!--
                                             </li>
                                             <li class="toolbar-item">
-                                                <!--                                                <a href="#"><img src="./img/toolbar/party-ico.png"><span>Party time</span></a>-->
+-->
+                                        <!--                                                <a href="#"><img src="./img/toolbar/party-ico.png"><span>Party time</span></a>-->
+                                        <!--
                                                 <a href="#">
                                                     <div><i class="fa fa-hashtag toolbar-menu-item-ico"></i></div><span>Other</span>
                                                 </a>
-                                                <!--                                                    <div><i class="fa fa-black-tie toolbar-menu-item-ico"></div><span>Party time</span></a>-->
-                                            </li>
-                                            <!--
+-->
+                                        <!--                                                    <div><i class="fa fa-black-tie toolbar-menu-item-ico"></div><span>Party time</span></a>-->
+                                        <!--                                            </li>-->
+                                        <!--
                                         <li>
     <a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_MensTraining.png"><span>Weekend</span></a>
 </li>
 -->
-                                            <!--
+                                        <!--
                                           <li>
     <a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_WomensTraining.png"><span>Women's Training</span></a>
 </li>
 -->
-                                        </ul>
+                                        <!--                                        </ul>-->
                                     </div>
                                     <!--
                                 <div class="tab-pane" id="women">
@@ -176,19 +211,38 @@
 </div>
 -->
                                     <div class="tab-pane" id="kids">
+                                        <h2>Select one action:</h2>
+                                        <div class="container">
+                                            <div class="form-group">
+                                                <div class="col-sm-7 col-md-7">
+                                                    <div class="input-group">
+                                                        <div id="radioBtn" class="btn-group">
+                                                            <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-lg active" data-toggle="happy" data-title="Y"><span><i class="fa fa-clock-o"></i> Get lastest measurements</span></a></div>
+                                                            <div class="toolbar-radioButton"><a class="btn btn-primary btn-lg notActive" data-toggle="happy" data-title="N"><span><i class="fa fa-refresh"></i> Get historic validated measurements</span></a></div>
+                                                        </div>
+                                                        <input type="hidden" name="happy" id="happy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--
                                         <ul class="nav-list list-inline">
                                             <li class="toolbar-item">
-                                                <!--                                                <a href="#"><img src="./img/toolbar/refresh-ico.png"><span>Get lastest measurements</span></a>-->
+-->
+                                            <!--                                                <a href="#"><img src="./img/toolbar/refresh-ico.png"><span>Get lastest measurements</span></a>-->
+                                            <!--
                                                 <a href="#">
                                                     <div><i class="fa fa-refresh toolbar-menu-item-ico"></i></div><span>Get lastest measurements</span>
                                                 </a>
                                             </li>
                                             <li class="toolbar-item">
-                                                <!--                                                <a href="#"><img src="./img/toolbar/historic-refresh-ico.png"><span>Get historic validated measurements</span></a>-->
-                                                <a href="#">
-                                                    <div><i class="fa fa-clock-o toolbar-menu-item-ico"></i></div><span>Get historic validated measurements</span>
-                                                </a>
-                                            </li>
+-->
+                                            <!--                                                <a href="#"><img src="./img/toolbar/historic-refresh-ico.png"><span>Get historic validated measurements</span></a>-->
+                                            <!--
+                                               <a href="#">
+    <div><i class="fa fa-clock-o toolbar-menu-item-ico"></i></div><span>Get historic validated measurements</span>
+</a>
+</li>
+-->
                                             <!--
                                             <li>
     <a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Football.png"><span>Football</span></a>
@@ -205,9 +259,9 @@
     <a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_WomensTraining.png"><span>Women's Training</span></a>
 </li>
 -->
-                                        </ul>
-                                    </div>
-                                    <!--
+                                            <!--                                        </ul>-->
+                                        </div>
+                                        <!--
                                   <div class="tab-pane" id="sports">
     <ul class="nav-list list-inline">
         <li>
@@ -228,6 +282,7 @@
     </ul>
 </div>
 -->
+                                    </div>
                                 </div>
                             </div>
                             <!-- Nav tabs -->
@@ -237,6 +292,8 @@
                                 <li><a href="#kids" role="tab" data-toggle="tab">Measurements</a></li>
                                 <!--                                <li><a href="#sports" role="tab" data-toggle="tab">Sports</a></li>-->
                             </ul>
+                            <!--                            <button class="btn btn-primary btn-sm toolbar-done-btn ">Done</button>-->
+                            <button type="button" class="btn btn-vd btn3d toolbar-done-btn"><span class=""></span>Done</button>
                         </div>
                     </li>
                     <li>
@@ -284,178 +341,168 @@
         </div>
         <!-- /.container-fluid -->
     </div>
-    <div class="container">
-        <div class="well">
-            <a href="https://www.twitter.com/maridlcrmn/">Code snippet inspired by the Nike website. Made with love by @maridlcrmn for @bootsnipp. Enjoy and Share!</a>
-        </div>
-    </div>
+
 
     <!-- /.nav-collapse -->
 
-
-
-
-
-
-
-
-
     <!--  End Toolbar -->
-    <div class="row content">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="update-nag">
+    <div class="row">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-4 .col-md-9 .col-md-offset-3">
+                <div id="" class="update-nag config-info">
                     <div class="update-split update-danger"><i class="glyphicon glyphicon-warning-sign"></i></div>
-                    <div class="update-text"> <strong>Warning</strong> a database error occurred. You should refresh the page or contact us.
+                    <div class="update-text"> <strong>Warning</strong> Select Configuration in <span>Settings</span> menu
+                        <label id="3">X</label>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row table-display-frame">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
-                <div class="panel panel-green">
-                    <div class="panel-heading">Measurements</div>
-                    <div class="panel-body">
-                        <table class="table table-hover table-bordered display-table col-lg-10">
-                            <thead>
-                                <tr class="heading-row">
-                                    <th>No.</th>
-                                    <th>Time</th>
-                                    <th>Activity</th>
-                                    <th>Distance</th>
-                                    <th>Duration</th>
-                                    <th>Average Speed</th>
-                                    <th>Top Speed</th>
-                                    <th>Energy</th>
-                                    <th>Details</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="active">
-                                    <td>1</td>
-                                    <td>12-2-2015 14:55:21</td>
-                                    <td>Running</td>
-                                    <td>5,2 km</td>
-                                    <td>53 &#39; 43 &#39;&#39; </td>
-                                    <td>20 km/h</td>
-                                    <td>35 km/h</td>
-                                    <td>520 kcal</td>
-                                    <td>
-                                        <a href="healtCare-details.html">
-                                            <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td>2</td>
-                                    <td>12-2-2015 14:55:21</td>
-                                    <td>Running</td>
-                                    <td>5,2 km</td>
-                                    <td>53 &#39; 43 &#39;&#39; </td>
-                                    <td>20 km/h</td>
-                                    <td>35 km/h</td>
-                                    <td>520 kcal</td>
-                                    <td>
-                                        <a href="healtCare-details.html">
-                                            <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td>3</td>
-                                    <td>12-2-2015 14:55:21</td>
-                                    <td>Running</td>
-                                    <td>5,2 km</td>
-                                    <td>53 &#39; 43 &#39;&#39; </td>
-                                    <td>20 km/h</td>
-                                    <td>35 km/h</td>
-                                    <td>520 kcal</td>
-                                    <td>
-                                        <a href="healtCare-details.html">
-                                            <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td>4</td>
-                                    <td>12-2-2015 14:55:21</td>
-                                    <td>Running</td>
-                                    <td>5,2 km</td>
-                                    <td>53 &#39; 43 &#39;&#39; </td>
-                                    <td>20 km/h</td>
-                                    <td>35 km/h</td>
-                                    <td>520 kcal</td>
-                                    <td>
-                                        <a href="healtCare-details.html">
-                                            <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td>5</td>
-                                    <td>12-2-2015 14:55:21</td>
-                                    <td>Running</td>
-                                    <td>5,2 km</td>
-                                    <td>53 &#39; 43 &#39;&#39; </td>
-                                    <td>20 km/h</td>
-                                    <td>35 km/h</td>
-                                    <td>520 kcal</td>
-                                    <td>
-                                        <a href="healtCare-details.html">
-                                            <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td>6</td>
-                                    <td>12-2-2015 14:55:21</td>
-                                    <td>Running</td>
-                                    <td>5,2 km</td>
-                                    <td>53 &#39; 43 &#39;&#39; </td>
-                                    <td>20 km/h</td>
-                                    <td>35 km/h</td>
-                                    <td>520 kcal</td>
-                                    <td>
-                                        <a href="healtCare-details.html">
-                                            <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td>7</td>
-                                    <td>12-2-2015 14:55:21</td>
-                                    <td>Wallking</td>
-                                    <td>15,2 km</td>
-                                    <td>53 &#39; 43 &#39;&#39; </td>
-                                    <td>2 km/h</td>
-                                    <td>5 km/h</td>
-                                    <td>1520 kcal</td>
-                                    <td>
-                                        <a href="healtCare-details.html">
-                                            <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
-                                        </a>
-                                    </td>
-                                </tr>
+    <div class="row table-display-frame">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+            <div class="panel panel-green">
+                <div class="panel-heading">Measurements</div>
+                <div class="panel-body">
+                    <table class="table table-hover table-bordered display-table col-lg-10">
+                        <thead>
+                            <tr class="heading-row">
+                                <th>No.</th>
+                                <th>Time</th>
+                                <th>Activity</th>
+                                <th>Distance</th>
+                                <th>Duration</th>
+                                <th>Average Speed</th>
+                                <th>Top Speed</th>
+                                <th>Energy</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="active">
+                                <td>1</td>
+                                <td>12-2-2015 14:55:21</td>
+                                <td>Running</td>
+                                <td>5,2 km</td>
+                                <td>53 &#39; 43 &#39;&#39; </td>
+                                <td>20 km/h</td>
+                                <td>35 km/h</td>
+                                <td>520 kcal</td>
+                                <td>
+                                    <a href="healtCare-details.html">
+                                        <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>2</td>
+                                <td>12-2-2015 14:55:21</td>
+                                <td>Running</td>
+                                <td>5,2 km</td>
+                                <td>53 &#39; 43 &#39;&#39; </td>
+                                <td>20 km/h</td>
+                                <td>35 km/h</td>
+                                <td>520 kcal</td>
+                                <td>
+                                    <a href="healtCare-details.html">
+                                        <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>3</td>
+                                <td>12-2-2015 14:55:21</td>
+                                <td>Running</td>
+                                <td>5,2 km</td>
+                                <td>53 &#39; 43 &#39;&#39; </td>
+                                <td>20 km/h</td>
+                                <td>35 km/h</td>
+                                <td>520 kcal</td>
+                                <td>
+                                    <a href="healtCare-details.html">
+                                        <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>4</td>
+                                <td>12-2-2015 14:55:21</td>
+                                <td>Running</td>
+                                <td>5,2 km</td>
+                                <td>53 &#39; 43 &#39;&#39; </td>
+                                <td>20 km/h</td>
+                                <td>35 km/h</td>
+                                <td>520 kcal</td>
+                                <td>
+                                    <a href="healtCare-details.html">
+                                        <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>5</td>
+                                <td>12-2-2015 14:55:21</td>
+                                <td>Running</td>
+                                <td>5,2 km</td>
+                                <td>53 &#39; 43 &#39;&#39; </td>
+                                <td>20 km/h</td>
+                                <td>35 km/h</td>
+                                <td>520 kcal</td>
+                                <td>
+                                    <a href="healtCare-details.html">
+                                        <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>6</td>
+                                <td>12-2-2015 14:55:21</td>
+                                <td>Running</td>
+                                <td>5,2 km</td>
+                                <td>53 &#39; 43 &#39;&#39; </td>
+                                <td>20 km/h</td>
+                                <td>35 km/h</td>
+                                <td>520 kcal</td>
+                                <td>
+                                    <a href="healtCare-details.html">
+                                        <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>7</td>
+                                <td>12-2-2015 14:55:21</td>
+                                <td>Wallking</td>
+                                <td>15,2 km</td>
+                                <td>53 &#39; 43 &#39;&#39; </td>
+                                <td>2 km/h</td>
+                                <td>5 km/h</td>
+                                <td>1520 kcal</td>
+                                <td>
+                                    <a href="healtCare-details.html">
+                                        <button type="button" ata-value="bounce" class="btn btn-primary btn-table-details"><i class="fa fa-bars"></i></button>
+                                    </a>
+                                </td>
+                            </tr>
 
-                            </tbody>
-                        </table>
-                        <div class="row control-button-frame">
-                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 back-table-button">
-                                <a href="sensorSelect.html">
-                                    <!--                                <button type="button" class="btn btn-success btn-table-back"><i class="fa fa-angle-left"></i>&#32;&#32;&#32;back to Sensors Select</button>-->
-                                </a>
-                            </div>
-                            <div class="col-lg-4 col-md-5 col-sm-6 col-xs-7 control-table-button">
-                                <button type="button" class="btn btn-success btn-table-control"><i class="fa fa-angle-left"></i>&#32;&#32;&#32; Previous</button>
-                                <button type="button" class="btn btn-success btn-table-control">Next&#32;&#32;&#32;<i class="fa fa-angle-right"></i></button>
-                            </div>
+                        </tbody>
+                    </table>
+                    <div class="row control-button-frame">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 back-table-button">
+                            <a href="sensorSelect.html">
+                                <!--                                <button type="button" class="btn btn-success btn-table-back"><i class="fa fa-angle-left"></i>&#32;&#32;&#32;back to Sensors Select</button>-->
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-7 control-table-button">
+                            <button type="button" class="btn btn-success btn-table-control"><i class="fa fa-angle-left"></i>&#32;&#32;&#32; Previous</button>
+                            <button type="button" class="btn btn-success btn-table-control">Next&#32;&#32;&#32;<i class="fa fa-angle-right"></i></button>
                         </div>
                     </div>
                 </div>
-
             </div>
+
         </div>
+    </div>
     </div>
     <!--END CONTENT-->
     <!--BEGIN FOOTER-->
@@ -513,6 +560,8 @@
     <script src="script/sidebar-menu.js"></script>
     <script src="script/measurements.js"></script>
     <script src="script/toolbar-menu-items.js"></script>
+    <script src="script/checkboxes.js"></script>
+    <script src="script/radioButtons.js"></script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
