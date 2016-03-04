@@ -28,4 +28,6 @@
 .toolbar-radioButton-a {
     min-width: 285px;
     text-align: left;
+    font-size: 12px;
+    font-weight: 500;
 }

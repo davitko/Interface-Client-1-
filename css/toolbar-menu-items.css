@@ -137,6 +137,8 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     position: relative;
     float: right;
     margin-right: 30px;
+    min-width: 80px;
+    height: 35px;
 }
 
 .settings-col > h4 {
@@ -144,4 +146,13 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     font-weight: 600;
     margin: 5px 0 20px 15px;
     text-align: left;
+}
+
+.settings-col > .form-group {
+    margin-left: 15px;
+}
+
+.settings-col-config {
+    max-height: 200px;
+    overflow-y: scroll;
 }
