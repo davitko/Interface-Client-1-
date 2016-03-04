@@ -84,6 +84,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 .toolbar-item {
     /*    border: none !important;*/
     border-radius: 15px;
+    min-height: 100px;
 }
 
 .toolbar-tab-content {
@@ -100,6 +101,10 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     color: white !important;
 }
 
+.toolbar-menu-item-ico-activ {
+    color: white !important;
+}
+
 .mega-dropdown-menu {
     background: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
@@ -108,4 +113,14 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 .stretch {
     width: 100%;
     height: 100%;
+}
+
+.toolbar-menu-item-ico {
+    font-size: 90px;
+    color: #006899;
+    margin-top: 20px;
+}
+
+.toolbar-item > a > span {
+    margin-top: 20px;
 }

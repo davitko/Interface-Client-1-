@@ -31,3 +31,16 @@ $('.toolbar-item').click(function () {
     //    $(this).addClass("active-toolbar-item");
     $(this).toggleClass('active-toolbar-item');
 });
+
+$('.toolbar-menu-item-ico').click(function () {
+    //    $(this).addClass("active-toolbar-item");
+    $(this).toggleClass('toolbar-menu-item-ico-activ');
+});
+
+$('.toolbar-btn-GetM').click(function () {
+    $(".toolbar-btn-validateM").removeClass('disabled');
+});
+
+$('.toolbar-btn-validateM').click(function () {
+    $(".toolbar-btn-saveVM").removeClass('disabled');
+});

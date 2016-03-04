@@ -81,6 +81,15 @@
     <div class="navbar navbar-default toolbar-navbar">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -111,17 +120,30 @@
                                     <div class="tab-pane active" id="men">
                                         <ul class="nav-list list-inline">
                                             <li class="toolbar-item">
-                                                <a href="#"><img src="./img/toolbar/no-ico.png"><span>No Configuration</span></a>
+                                                <!--                                                <a href="#"><img src="./img/toolbar/no-ico.png"><span>No Configuration</span></a> Please go to Register Screen-->
+                                                <a href="#">
+                                                    <div><i class="fa fa-black-tie toolbar-menu-item-ico"></i></div><span class="">No Configuration </span></a>
                                             </li>
                                             <li class="toolbar-item">
-                                                <a href="#"><img src="./img/toolbar/night-ico.png"><span>Night</span></a>
+                                                <!--                                                <a href="#"><img src="./img/toolbar/night-ico.png"><span>Night</span></a>-->
+                                                <a href="#">
+                                                    <div><i class="fa fa-sun-o toolbar-menu-item-ico"></i></div><span>Day</span>
+                                                </a>
                                             </li>
                                             <li class="toolbar-item">
-                                                <a href="#"><img src="./img/toolbar/day-ico.png"><span>Day</span></a>
+                                                <!--                                                <a href="#"><img src="./img/toolbar/day-ico.png"><span>Day</span></a>-->
+                                                <a href="#">
+                                                    <div><i class="fa fa-moon-o toolbar-menu-item-ico"></i></div><span>Night</span>
+                                                </a>
+                                                <!--                                                    <div><i class="fa fa-black-tie toolbar-menu-item-ico"></div><span>Day</span></a>-->
                                                 <!--                                                <a href="#"><i class="fa fa-sun-o stretch"></i><span>Day</span></a>-->
                                             </li>
                                             <li class="toolbar-item">
-                                                <a href="#"><img src="./img/toolbar/party-ico.png"><span>Party time</span></a>
+                                                <!--                                                <a href="#"><img src="./img/toolbar/party-ico.png"><span>Party time</span></a>-->
+                                                <a href="#">
+                                                    <div><i class="fa fa-hashtag toolbar-menu-item-ico"></i></div><span>Other</span>
+                                                </a>
+                                                <!--                                                    <div><i class="fa fa-black-tie toolbar-menu-item-ico"></div><span>Party time</span></a>-->
                                             </li>
                                             <!--
                                         <li>
@@ -156,10 +178,16 @@
                                     <div class="tab-pane" id="kids">
                                         <ul class="nav-list list-inline">
                                             <li class="toolbar-item">
-                                                <a href="#"><img src="./img/toolbar/refresh-ico.png"><span>Get lastest measurements</span></a>
+                                                <!--                                                <a href="#"><img src="./img/toolbar/refresh-ico.png"><span>Get lastest measurements</span></a>-->
+                                                <a href="#">
+                                                    <div><i class="fa fa-refresh toolbar-menu-item-ico"></i></div><span>Get lastest measurements</span>
+                                                </a>
                                             </li>
                                             <li class="toolbar-item">
-                                                <a href="#"><img src="./img/toolbar/historic-refresh-ico.png"><span>Get historic validated measurements</span></a>
+                                                <!--                                                <a href="#"><img src="./img/toolbar/historic-refresh-ico.png"><span>Get historic validated measurements</span></a>-->
+                                                <a href="#">
+                                                    <div><i class="fa fa-clock-o toolbar-menu-item-ico"></i></div><span>Get historic validated measurements</span>
+                                                </a>
                                             </li>
                                             <!--
                                             <li>
@@ -213,17 +241,17 @@
                     </li>
                     <li>
                         <a href="#" class="toolbar-btn">
-                            <button type="button" class="btn btn-vd btn3d"><span class=""></span><i class="fa fa-repeat"></i> Get Measurements</button>
+                            <button type="button" class="btn btn-vd btn3d toolbar-btn-GetM disabled"><span class=""></span><i class="fa fa-repeat"></i> Get Measurements</button>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="toolbar-btn">
-                            <button type="button" class="btn btn-vd btn3d"><span class=""></span><i class="fa fa-check-square-o"></i> Validate Measurements</button>
+                            <button type="button" class="btn btn-vd btn3d toolbar-btn-validateM disabled"><span class=""></span><i class="fa fa-check-square-o"></i> Validate Measurements</button>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="toolbar-btn">
-                            <button type="button" class="btn btn-vd btn3d"><span class=""></span><i class="fa fa-floppy-o"></i> Save Validated Measurements</button>
+                            <button type="button" class="btn btn-vd btn3d toolbar-btn-saveVM disabled"><span class=""></span><i class="fa fa-floppy-o"></i> Save Validated Measurements</button>
                         </a>
                     </li>
                 </ul>
