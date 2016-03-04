@@ -51,10 +51,18 @@ $('.toolbar-checkbox').click(function () {
 
 $(".toolbar-done-btn").click(function () {
     $(".toolbar-btn-GetM").removeClass('disabled');
+    $(".mega-dropdown-menu").css({
+        "display": "none"
+    });
+
+
+    $("#settinsInfo").removeClass('activ-info').addClass("notActiv-info");
+    $("#measurementsInfo").removeClass('notActiv-info').addClass("activ-info");
 });
 
 $('.toolbar-btn-GetM').click(function () {
     $(".toolbar-btn-validateM").removeClass('disabled');
+    $("#measurementsInfo").removeClass('activ-info').addClass("notActiv-info");
 });
 
 $('.toolbar-btn-validateM').click(function () {

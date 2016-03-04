@@ -24,6 +24,14 @@
     text-align: center;
 }
 
+.update-split {
+    margin-top: 15px;
+}
+
+.update-split > i {
+    font-size: 30px;
+}
+
 .update-nag > .update-split > .glyphicon {
     position: relative;
     top: calc(50% - 9px)!important;
@@ -48,6 +56,8 @@
     padding-top: 11px;
     padding-left: 45px;
     padding-right: 10px;
+    margin: 5px 0;
+    line-height: 30px;
 }
 
 .update-nag > .update-text label {
@@ -73,4 +83,12 @@
 .update-text > span {
     color: #D11250;
     font-weight: 600;
+}
+
+.activ-info {
+    display: block;
+}
+
+.notActiv-info {
+    display: none;
 }

@@ -124,18 +124,20 @@
                                         <!--                                        <div class="container">-->
                                         <div class="row">
                                             <div class="col-lg-6 settings-col">
-                                                <h4>You must select one configuration:</h4>
+                                                <h4>Select one configuration:</h4>
                                                 <!--                                        <div class="container">-->
                                                 <!-- All sizes -->
                                                 <div class="form-group">
                                                     <div class="col-sm-7 col-md-7">
                                                         <div class="input-group">
                                                             <div id="radioBtn" class="btn-group">
-                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md active" data-toggle="happy" data-title="Config1"><span><i class="fa fa fa-cog"></i> Config 1</span></a></div>
-                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="happy" data-title="Config2"><span><i class="fa fa fa-cog"></i> Config 2</span></a></div>
-                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="happy" data-title="Config3"><span><i class="fa fa fa-cog"></i> Config 3</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md active" data-toggle="configuration" data-title="Config1"><span><i class="fa fa fa-cog"></i> Config 1</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="configuration" data-title="Config2"><span><i class="fa fa fa-cog"></i> Config 2</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="configuration" data-title="Config3"><span><i class="fa fa fa-cog"></i> Config 3</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="configuration" data-title="Config4"><span><i class="fa fa fa-cog"></i> Config 4</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="configuration" data-title="Config5"><span><i class="fa fa fa-cog"></i> Config 5</span></a></div>
                                                             </div>
-                                                            <input type="hidden" name="happy" id="happy">
+                                                            <input type="hidden" name="configuration" id="configuration">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -146,10 +148,10 @@
                                                     <div class="col-sm-7 col-md-7">
                                                         <div class="input-group">
                                                             <div id="radioBtn" class="btn-group">
-                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md active" data-toggle="happy" data-title="GLM"><span><i class="fa fa-clock-o"></i> Get lastest measurements</span></a></div>
-                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="happy" data-title="GHVM"><span><i class="fa fa-refresh"></i> Get historic validated measurements</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md active" data-toggle="measurements" data-title="GLM"><span><i class="fa fa-clock-o"></i> Get lastest measurements</span></a></div>
+                                                                <div class="toolbar-radioButton"><a class="btn btn-primary toolbar-radioButton-a btn-md notActive" data-toggle="measurements" data-title="GHVM"><span><i class="fa fa-refresh"></i> Get historic validated measurements</span></a></div>
                                                             </div>
-                                                            <input type="hidden" name="happy" id="happy">
+                                                            <input type="hidden" name="measurements" id="measurements">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -376,10 +378,16 @@
     <!--  End Toolbar -->
     <div class="row">
         <!--        <div class="container">-->
-        <div class="col-lg-8 col-lg-offset-2 .col-md-8 .col-md-offset-2 .col-sm-9 .col-sm-offset-1">
-            <div id="" class="update-nag config-info">
-                <div class="update-split update-danger"><i class="glyphicon glyphicon-warning-sign"></i></div>
-                <div class="update-text"> <strong>Warning</strong> Select Configuration in <span>Settings</span> menu
+        <div class="col-lg-7 col-lg-offset-2 .col-md-8 .col-md-offset-2 .col-sm-9 .col-sm-offset-1">
+            <div id="settinsInfo" class="update-nag config-info activ-info">
+                <div class="update-split update-danger"><i class="fa fa-info"></i></div>
+                <div class="update-text">Please select Configuration in <span>Settings</span> menu.
+                </div>
+            </div>
+            <div id="measurementsInfo" class="update-nag config-info notActiv-info">
+                <div class="update-split update-danger"><i class="fa fa-info"></i></div>
+                <div class="update-text">Click on <span>Get Measurements</span> button
+                    <br> to get lastest measurements.
                 </div>
             </div>
         </div>

@@ -142,5 +142,6 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 .settings-col > h4 {
     color: #006899;
     font-weight: 600;
-    margin: 5px 0 20px;
+    margin: 5px 0 20px 15px;
+    text-align: left;
 }
